@@ -1,0 +1,53 @@
+{
+  "Id": "604891ad-40a4-4f64-95f0-b4a252a9c58a",
+  "Name": "Contract",
+  "OriginalName": "Contract",
+  "NamePlural": "Contracts",
+  "DatabaseTableName": "Contracts",
+  "Namespace": "Contracts",
+  "BaseClass": "FullAuditedAggregateRoot",
+  "PrimaryKeyType": "int",
+  "IsMultiTenant": false,
+  "ShouldCreateUserInterface": true,
+  "ShouldCreateBackend": true,
+  "ShouldAddMigration": true,
+  "ShouldUpdateDatabase": true,
+  "CreateTests": true,
+  "Properties": [
+    {
+      "Id": "1713f2b8-ccd0-4ca5-bf54-171637ad91ed",
+      "Name": "Name",
+      "Type": "string",
+      "EnumType": "",
+      "EnumNamespace": "",
+      "EnumAngularImport": "shared/enums",
+      "IsNullable": false,
+      "IsRequired": false,
+      "MinLength": null,
+      "MaxLength": null,
+      "SortOrder": 0,
+      "SortType": 0,
+      "Regex": "",
+      "EmailValidation": false,
+      "EnumValues": null
+    }
+  ],
+  "NavigationProperties": [
+    {
+      "Namespace": "fahim.Contracts",
+      "EntityName": "Contract",
+      "EntityNameWithDuplicationNumber": "Contract1",
+      "EntitySetNameWithDuplicationNumber": "Contracts1",
+      "EntitySetName": "Contracts",
+      "DtoNamespace": "fahim.Contracts",
+      "DtoEntityName": "ContractDto",
+      "Type": "int",
+      "Name": "ContractId",
+      "ReferencePropertyName": "Contract",
+      "DisplayProperty": "Name",
+      "UiPickType": "Dropdown",
+      "IsRequired": false
+    }
+  ],
+  "PhysicalFileName": "Contract.json"
+}
